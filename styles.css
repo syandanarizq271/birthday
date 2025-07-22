@@ -640,9 +640,9 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
-/* Message Page Styles */
+/* Message Page Styles - Fixed Layout */
 .message-content {
-    height: 280px; /* Significantly increased height for truly full display */
+    height: calc(100% - 80px); /* Adjusted to match other pages */
     overflow-y: auto;
     padding: 15px;
     background: #2d5016;
@@ -671,7 +671,7 @@ body {
     animation: blink 1s infinite;
 }
 
-/* Skip button positioned near navigation buttons */
+/* Skip button positioned consistently with other pages */
 .skip-btn {
     display: block;
     margin: 0 auto 8px auto;
@@ -697,32 +697,16 @@ body {
     transform: scale(0.95);
 }
 
-/* Adjust page controls spacing */
-.page-controls {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 5px;
-}
-
-.page-header {
-    color: #9bbc0f;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px;
-    flex-shrink: 0;
-}
-
-/* Make sure the message content takes up most of the available space */
+/* Remove the problematic overrides */
 #message-screen .page-screen {
-    height: calc(100vh - 230px); /* Adjust based on your gameboy container height */
+    height: 480px; /* Same as other pages */
 }
 
-#message-screen .message-content {
-    flex: 0.5; /* Take up remaining space */
-    min-height: 380px; /* Minimum height */
-    max-height: 500px; /* Maximum height to prevent overflow */
+/* Ensure consistent structure */
+#message-screen .page-container {
+    width: 400px;
+    height: 600px;
+    /* Same as other pages */
 }
 
 /* Gallery Page Styles */
