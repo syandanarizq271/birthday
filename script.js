@@ -323,7 +323,7 @@ function startPhotoShow() {
         },
         {
             text: 'Birthday Moment 🎂',
-            image: './gambar2.jpg'
+            image: './gambar.2.jpg'
         },
         {
             text: 'Adventure Time 🌟',
