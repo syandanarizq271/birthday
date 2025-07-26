@@ -323,7 +323,7 @@ function startPhotoShow() {
         },
         {
             text: 'Birthday Moment 🎂',
-            image: './gambar.2.jpg'
+            image: './gambar2.jpg'
         },
         {
             text: 'Adventure Time 🌟',
@@ -347,7 +347,7 @@ function startPhotoShow() {
         },
         {
             text: 'Love Forever 💖',
-            image: './gambar 8.jpg'
+            image: './gambar8.jpg'
         }
     ];
     
