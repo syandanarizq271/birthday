@@ -31,10 +31,6 @@ function simulateLoading() {
     
     let progress = 0;
     const loadingMessages = [
-        '&gt; INITIALIZING..._',
-        '&gt; LOADING MEMORIES..._',
-        '&gt; PREPARING SURPRISE..._',
-        '&gt; ALMOST READY..._',
         '&gt; LOADING COMPLETE!_'
     ];
     
@@ -322,36 +318,36 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
-            image: './images/photo1.jpg'
+            text: '💕',
+            image: './gambar1.jpg'
         },
         {
             text: 'Birthday Moment 🎂',
-            image: './images/photo2.jpg'
+            image: './gambar2.jpg'
         },
         {
             text: 'Adventure Time 🌟',
-            image: './images/photo3.jpg'
+            image: './gambar3.jpg'
         },
         {
             text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
+            image: './gambar4.jpg'
         },
         {
             text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
+            image: './gambar5.jpg'
         },
         {
             text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
+            image: './gambar6.jpg'
         },
         {
             text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
+            image: './gambar7.jpg'
         },
         {
             text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
+            image: './gambar 8.jpg'
         }
     ];
     
@@ -610,13 +606,13 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
+            embedUrl: 'https://open.spotify.com/embed/playlist/5c7GuGD0T6elly2Kyz794s?si=409dc1a0f3464a36&pt=837ff22e28739c2a3cc334f8e64fda6b',
             name: 'Birthday Special Mix',
             description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
+            embedUrl: 'https://open.spotify.com/embed/playlist/2QbErmLusPcytuEXdQOLFt?si=bb5e8c7fa3f44cf3&pt=a099004765c3958cfab65b2ef09ac51b',
             name: 'Love Songs Collection',
             description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
         },
